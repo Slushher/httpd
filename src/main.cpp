@@ -1,7 +1,8 @@
-#include <iostream>
+#include "../headers/socket.h"
 
-int main(void)
+int main(int argc, char **argv)
 {
     std::cout<<"buranyuu\n";
+    setupSocket(1337);
     return 0;
 }
